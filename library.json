@@ -1,0 +1,28 @@
+{
+    "name": "DSL ESP App Base",
+    "version": "0.0.1",
+    "description": "Base app for ESP applications",
+    "keywords": "tools",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DarylStark/dsl_esp_appbase/"
+    },
+    "authors": [
+        {
+            "name": "Daryl Stark",
+            "email": "daryl@dstark.nl",
+            "url": "https://github.com/DarylStark"
+        }
+    ],
+    "flags": [
+        "-std=gnu++17"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/DarylStark/dsl_esp_appbase/",
+    "dependencies": {
+        "dsl": "^0.0.1",
+        "dsl_esp_component": "^0.0.1"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}

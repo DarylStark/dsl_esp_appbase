@@ -26,6 +26,7 @@ namespace dsl
                 // Pure virtual methods for subclasses
                 virtual void setup() = 0;
                 virtual void loop() = 0;
+                virtual uint16_t get_status() const = 0;
             };
         };
     }
